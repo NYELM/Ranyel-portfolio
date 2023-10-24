@@ -1,0 +1,120 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 173, 173);
+    color: #ededed;
+    min-width: 100vh;
+}
+
+/* Header */
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header img {
+    height: 5rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: rgb(8, 88, 56)
+}
+
+/* Container */
+
+.container {
+    padding: 10%;
+}
+
+.educacao {
+    display: flex;
+}
+
+.ti {
+    margin: 0 10% 0 0;
+}
+
+.container h2 {
+    margin: 0 0 1em 0;
+    font-size: xx-large;
+}
+
+.container li {
+    margin-bottom: 1.5em;
+    font-size: large;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.2em 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: #ededed;
+}
+
+footer ul a:hover {
+    color: rgb(8, 88, 56)
+}
+
+div.icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.icons i {
+    color: #ededed;
+    font-size: x-large;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.icons i:hover {
+    font-size: xx-large;
+}
